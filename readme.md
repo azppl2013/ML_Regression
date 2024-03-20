@@ -146,6 +146,7 @@ https://www.sciencedirect.com/topics/mathematics/correlation-matrix <br>
 'price', 'sqft_living', 'sqft_above', 'sqft_living15', 'bathrooms', 'sqft_basement'<br>
 <br>
 分別把各個參數進行 Scatter plots 圖的相互比較，獲得這張壯觀的圖 <br>
+
 ![螢幕擷取畫面 2021-11-28 232641](https://user-images.githubusercontent.com/95005809/143774416-91d9ae13-e515-4157-a26f-17a09fab7d0e.jpg)
 
 
