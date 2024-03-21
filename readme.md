@@ -1,17 +1,17 @@
-108360721 電子三丙 陳靖元 Lab 1 Regression : House Sale Price Prediction Challenge
+Regression : House Sale Price Prediction Challenge 實驗記錄
 ===
 
 老師好、大家好，我是電子三丙的同學（108360721 陳靖元），<br>
 會跨班來選這門課是因為我本身對於人工智慧相當感興趣，未來也想繼續往計算機科學這條路走，<br>
-但因為沒有相關的經驗，想透過電子甲/乙班的這門機器學習，來累積紮實的基礎。<br>
+但因為沒有相關的經驗，想透過這門機器學習課程，來累積紮實的基礎。<br>
 <br>
 以下是我這幾個禮拜的研究與學習過程：
 <br><br>
 
 首先，建立 Python 開發環境
 --
-我是一位Python新手，在修這門課以前並沒有學過Python程式語言，因此，在這第一步我就屢屢碰壁，<br>
-天真的以為就像 Visual Studio、XCode......等方便的軟體，有現成的安裝包端上桌，<br>
+我是一位Python新手，在修這門課以前並沒有學過Python程式語言，因此，在這第一步就遭遇難題，<br>
+原本以為就像 Visual Studio、XCode......等方便的軟體，有現成的安裝包端上桌，<br>
 但翻閱了網路上的 TensorFlow、PyTorch 環境建置教學文，發現事情並沒有我想的那麼簡單，<br>
 <br>
 需要先下載 Anaconda ，這個軟體可謂是萬物的起源、一切的基底，<br>
@@ -24,7 +24,7 @@ Anaconda 安裝教學：https://cvfiasd.pixnet.net/blog/post/175016013-anaconda%
 
 <br>
 在安裝時需要特別注意自己安裝的 Python 版本，我在這邊打轉了很久， <br>
-因為 Python 與 TensorFlow 和等等會遇到的 Cuda ......等，對於版本號的相對應是非常吃重的，<br>
+因為 Python 與 TensorFlow 和等等會遇到的 Cuda ......等，對於版本號的相對應是非常重要的，<br>
 只要安裝的版本一不匹配，安裝程式便會無情的給出錯誤碼。<br>
 <br>
 我安裝的版本分別是：<br>
@@ -64,7 +64,7 @@ Anaconda 安裝教學：https://cvfiasd.pixnet.net/blog/post/175016013-anaconda%
 
 <br>
 
-再次提醒，版本對應的問題很重要，記得先查詢好對應的環境版本號，不然很容易像我一樣走了彎路。<br><br>
+再次提醒，版本對應的問題很重要，記得先查詢好對應的環境版本號，不然容易走了彎路。<br><br>
 在虛擬環境上安裝函式庫的部分，先打開 Anaconda Prompt ，會看到如上圖類似命令提示字元（cmd）的介面，<br>
 在 Anaconda Prompt 中，主流安裝函式庫的方式是使用 pip 來進行，<br>
 pip 是 Python 中的標準庫管理器。它允許你安裝和管理不屬於 Python 內建函示庫的其它插件。 <br><br>
@@ -89,7 +89,7 @@ pip 是 Python 中的標準庫管理器。它允許你安裝和管理不屬於 P
 Tensorflow-gpu 的部分我是參考這篇文章安裝：<br>
 https://cvfiasd.pixnet.net/blog/post/175023846-windows%E5%AE%89%E8%A3%9Dtensorflow%E6%95%99%E5%AD%B8 <br>
 <br>
-做完以上步驟之後，恭喜你，機器學習之路的大門已為你敞開。<br><br>
+做完以上步驟之後，恭喜你，學習機器學習的大門已為你敞開。<br><br>
 
 
 
@@ -155,7 +155,7 @@ https://www.sciencedirect.com/topics/mathematics/correlation-matrix <br>
 可以容易的看出變數間的相互關係為何，<br>
 <br>
 
-（此段下方處裡的步驟還在進行研究中，未來會將這個部分補齊）<br>
+<br>
 
 ![螢幕擷取畫面 2021-11-28 232836](https://user-images.githubusercontent.com/95005809/143774509-12f745cc-4bfd-4f85-9343-c6467d8af33f.jpg)
 <br>
@@ -182,7 +182,7 @@ https://www.sciencedirect.com/topics/mathematics/correlation-matrix <br>
 <br>
 
 由於時間倉促，所以只做到了這裡，<br>
-在 kaggle 得到的 loss 只有 156397.34 。
+在 kaggle 得到的 loss 有 156397.34 。
 
 
 
@@ -192,18 +192,16 @@ https://www.sciencedirect.com/topics/mathematics/correlation-matrix <br>
 心得
 --
 
-我在實作時，因為是完全的 Python 新手，所以遭遇了很多困難、與期中考<br>
-做到這個步驟時，時間就已經所剩無幾，<br>
-後來忍痛趕鴨子上架，並沒有在實作時把上課學到的原理完全消化並套用，<br><br>
-
+實作時，因為是完全的 Python 新手，所以遭遇了很多困難、與期中考撞期<br>
+做到這個步驟時，時間就已經所剩無幾。<br>
+<br>
 同時上了李宏毅教授與廖元甫教授的課程，對於理論層面確實有很大的幫助，<br>
 在實作時也更好理解自己在做什麼、需要做什麼，<br>
 在下次的 Kaggle 競賽，相信我的表現一定能比這次更好，<br>
-我也將會下更多功夫來學習這門課，精進自身的程式開發能力。<br>
+我也將會下更多功夫來學習這門課，精進自身的機器學習理論與實作能力。<br>
 <br><br>
 
 
-<待續>
 
 
 
