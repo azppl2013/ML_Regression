@@ -33,7 +33,6 @@ Anaconda 安裝教學：https://cvfiasd.pixnet.net/blog/post/175016013-anaconda%
 2. Cuda 11.5
 3. Cudnn 8.3
 4. TensorFlow-gpu 2.7
-5. 
 <br>
 
 在安裝好 Anaconda 之後，接下來需要使用 Anaconda Prompt 安裝我們需要的各種函式庫，<br>
